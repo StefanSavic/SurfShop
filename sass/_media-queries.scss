@@ -1,0 +1,163 @@
+@media(max-width:1856px){
+	.main-container{
+		margin-top:-53%;
+	}
+	.hero img{
+
+	}
+	.branding img{
+		max-width: 156px;
+		flex:1;
+	}
+}
+
+// @media(max-width:931px){
+
+	@media(max-width:1280px){
+		.hero img{
+			width: none;
+		// max-height: 188.3px;
+
+	}
+	body{
+		overflow-x: hidden;
+	}
+	.hero{
+		.custom-control{
+			span{
+				font-size: 0.7em;
+			}		
+		}
+		background-size:contain;
+
+		.custom-indicators{
+			bottom: 2%;
+		}
+		.carousel-inner{
+			display: flex;
+		}
+		.carousel .social-container{
+			top:5%;
+		}
+		article{
+			background:rgba(0,0,0,0.2);
+			padding:5px;
+			margin: auto;
+			top:26%;
+			right: 40%;
+			font-size: 10px;
+			h1{
+				font-size: 20px;
+			}
+			p{
+				max-width: 200px;
+			}
+			button{
+				margin-top: 1%;
+				padding: 2px 5px;
+			}
+			
+		}
+	}
+	.main-container{
+		margin-top: 0;
+	}
+	.buttons button{
+
+	}
+
+	.aisde{
+		top: 25em;
+	}
+	.menu{
+		nav li{
+			padding:1em ;
+			ul{
+
+			}
+		}
+	}
+	.custom-dropdown{
+		margin-left:0!important;
+		position: relative;
+		padding: 0 2em;
+		width: 110%;
+		left: -20px;
+		top:1em;		
+		li{
+			padding-top:0!important;
+		}
+
+	}
+	
+	.dropdown_menu {
+		position: relative;
+		margin:0;
+		li {
+			padding: 1em 1em 0 0 !important;
+		}
+	}
+	.main{
+		margin-left:0;
+		margin-top:0;
+		h3{
+			margin-left: 2.5em;
+		}
+	}
+
+	.products{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: no-wrap;
+	}
+	.branding{
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items:center;
+		padding-bottom:2em;
+	}
+	.instagram-feed__headline{
+		text-align: center;
+	}
+	.instagram-feed-photos__container{
+		justify-content: space-beetween;
+		img{
+			margin: auto;
+			margin-top: 0.4em;
+			&:last-child{
+				margin-right: auto;
+			}
+		}
+	}
+	.footer-container,.products,{
+		flex-direction:column;
+	}
+	.foot-container .social-container {
+		float: none;
+		padding-top:0;
+	}
+}
+
+@media(min-width:772px) and (max-width:991px){
+	.social-container {
+		flex-direction: column;
+	}
+	.footer-container{
+		flex-direction:row;
+		.about-us{
+			padding-left:2.5em;
+		}
+	}
+}
+@media(min-width:991px){
+	.footer-container{
+		flex-direction:row;
+	}
+
+	.about-us{
+		padding-left: 0;
+	}
+}
+

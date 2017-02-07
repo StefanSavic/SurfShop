@@ -1,0 +1,91 @@
+// aside
+aside{
+	
+	.logo-container{
+		height: 111px;
+		background:url('resources/img/logo.png');
+		background-size: contain;
+		background-repeat:no-repeat;
+		background-position: center center;
+		margin-bottom: 40px;
+	}
+
+
+.welcome-message{
+	font-weight: bold;
+	font-style: italic;
+	h2{
+		font-weight: 800;
+		text-transform: uppercase;
+	}
+	padding:1em;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	flex-direction: column;
+	background:$yellow;
+	height: 300px;
+	margin-bottom: 45px;
+}
+
+.open-now-banner{
+	h1{
+		font-weight:900;
+		}
+		text-transform: uppercase;
+		background:url('https://coresites-cdn.factorymedia.com/cooler_new/wp-content/uploads/2015/06/Womens-Surfing-Clothes.jpg');
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+		height: 300px;
+		padding: 7em 1em 0 10em;
+		margin-bottom: 2em;
+	}
+
+	.tags-widget{
+		padding:2em;
+		background:#fff;
+		margin-bottom: 2em;
+		h3{
+			font-weight: 900;
+			font-style: italic;
+			margin-bottom: 1em;
+		}
+		span{
+			font-family:'Roboto',sans-serif;
+			text-transform: capitalize;
+			display: inline-block;
+			background:#eee;
+			padding:5px;
+			margin-bottom:1em;
+			color:#333;
+		}
+		span:hover{
+			background:$yellow2;
+		}
+
+		.span__superTag{
+			font-weight:600;
+			padding:5px 3em;
+		}
+	}
+	.articles-experts{
+		h3{
+			font-weight: 900;
+			font-style:italic;
+		}
+		a{
+			color:#555;
+			text-decoration:none;
+		}
+		ul li {
+			padding:1em 0;
+
+		}
+		text-transform: capitalize;
+		padding:2em;
+		background:#fff;
+
+	}
+	
+}
